@@ -1,1 +1,12 @@
-
+使用方法
+# 克隆仓库
+git clone <GitHub 仓库 URL>
+# 进入目录
+cd testreport
+# 安装依赖
+npm install
+# 复制环境变量模板并填写配置
+cp .env.example .env
+# 编辑 .env 文件，填写 GitHub Token 等信息
+# 运行工具
+node analyze-workflow-tests.js
